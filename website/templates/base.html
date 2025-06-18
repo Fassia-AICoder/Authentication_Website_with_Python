@@ -18,6 +18,9 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       crossorigin="anonymous"
     />
+
+    <!-- This block mean every things I put in this block can be change in my other file -->
+    <!-- All block have to be named -->
     <title>{% block title %}Page-Main{% endblock %}</title>
 </head>
 
@@ -38,10 +41,37 @@
             </div>
         </div>
     </nav>
+
+    <!-- Here is how to say a flash message I did in auth file for sign up funtion -->
+    {% with messages = get_flashed_messages(with_categories=true)%}
+    {% if messages %}
+      {% for category, message in messages %}
+      {% if category == 'error' %}
+      <div class="alert alert-danger alter-dismissable fade show" role="alert">
+        {{ message }}
+        <button type="button" class="close" data-dimiss="alert">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      {% else %}
+      <div class="alert alert-success alter-dismissable fade show" role="alert">
+        {{ message }}
+        <button type="button" class="close" data-dimiss="alert">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <!-- This part is used to do all things I want to put inside deferents pages-->
     <div class="container">
+        <!-- This block mean every things I put in this block can be change in my other file -->
         {% block content %}
         {% endblock %}
     </div>
+
     <!-- The link for java script -->
      <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
