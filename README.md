@@ -1,7 +1,7 @@
 “This project was completed using English as a non-native French speaker (B2 upper-intermediate level), as part of my journey to improve both my technical and communication skills.”
 
 
-📘 Project Title  
+📘 Project Title<br>
 Authentication Website with Python
 
 🚀 Overview  
