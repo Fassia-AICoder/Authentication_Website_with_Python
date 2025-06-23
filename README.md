@@ -1,14 +1,14 @@
 “This project was completed using English as a non-native French speaker (B2 upper-intermediate level), as part of my journey to improve both my technical and communication skills.”
 
 
-📘 Project Title
+📘 Project Title  
 Authentication Website with Python
 
-🚀 Overview
+🚀 Overview  
 A web application built using Flask that allows users to sign up , log in, log out and add note in a simple board.
 
 
-🙋‍♀️ Motivation
+🙋‍♀️ Motivation  
 I created this project as a step toward developing my main project, "Studyce"(see the Studyce repository for more information). 
 To bring Studyce to life, I needed to learn how to build a simple website using Python in order to test all its features. 
 With this goal in mind, I followed the YouTube tutorial 'Python Website Full Tutorial – Flask, Authentication, Databases and More' 
