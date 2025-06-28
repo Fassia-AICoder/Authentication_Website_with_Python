@@ -1,45 +1,86 @@
-“This project was completed using English as a non-native French speaker (B2 upper-intermediate level), as part of my journey to improve both my technical and communication skills.”
+> 🗣️ *Note: This project was completed using English as a non-native French speaker (B2 upper-intermediate level), as part of my journey to improve both my technical and communication skills.*
 
+# 📘 Authentication Website with Python
 
-📘 Project Title<br>
-Authentication Website with Python
+Welcome to my Python learning repository! 
 
-🚀 Overview<br>
-A web application built using Flask that allows users to sign up , log in, log out and add note in a simple board.
+---
 
+## 🚀 Project Overview
 
-🙋‍♀️ Motivation<br>
-I created this project as a step toward developing my main project, "Studyce"(see the Studyce repository for more information). 
-To bring Studyce to life, I needed to learn how to build a simple website using Python in order to test all its features. 
-With this goal in mind, I followed the YouTube tutorial 'Python Website Full Tutorial – Flask, Authentication, Databases and More' 
-from the channel "Tech With Tim", which enabled me to create the project I'm presenting here.
+A full-stack web application built with **Flask** that enables users to:
 
+- Sign up and create accounts  
+- Log in and manage sessions securely  
+- Add and delete personal notes  
+- Log out with session termination  
+- Interact with a basic note board
 
-🛠️ Features<br>
-User registration and login<br>
-Password hashing for security<br>
-Session management<br>
-Input validation<br>
-Logout functionality<br>
-add and delete note<br>
+This project was developed while following the YouTube tutorial:  
+🎓 *Python Website Full Tutorial – Flask, Authentication, Databases and More* by **Tech With Tim**.
 
+---
 
-📌 Folder Structure<br>
-__init__.py : This file initializes the Flask application and sets up configurations,
-              routes, and extensions. It acts as the central place where the app is created and bundled together.<br>
-main.py : This is the entry point of the application. It imports the Flask app from __init__.py and runs the server when the file is executed.<br>
-view.py : Contains the main routes of the website (the homepage).<br>
-auth.py : Handles all authentication-related routes, like login, registration, and logout.<br>
-templates/ : HTML files<br>
-static/ : JS<br>
-models.py — database models<br>
+## 🙋 Motivation
 
+This app serves as an important step in building my larger personal project called **Studyce** (see related repository).  
+To effectively test Studyce’s features, I needed to understand how to build a functioning Python-based web application with authentication and CRUD operations.
 
-🧰 Technologies Used<br>
-Python<br>
-Flask<br>
-Flask-Login<br>
-SQLAlchemy<br>
+---
 
+## 🧰 Features
 
+- ✅ User registration and login  
+- ✅ Password hashing for added security  
+- ✅ Secure session handling  
+- ✅ Input validation  
+- ✅ Logout support  
+- ✅ Add and delete notes  
 
+---
+
+## 📁 Folder Structure
+
+| File/Folder       | Purpose                                                                 |
+|-------------------|-------------------------------------------------------------------------|
+| `main.py`         | Entry point — runs the server                                            |
+| `__init__.py`     | Initializes the Flask app, configurations, and Blueprints                |
+| `auth.py`         | Routes for authentication (login, register, logout)                     |
+| `view.py`         | Routes for user content (dashboard, notes)                              |
+| `models.py`       | Database models using SQLAlchemy                                         |
+| `/templates/`     | HTML templates for rendering the UI                                     |
+| `/static/`        | Static files (JS, CSS, images)                                           |
+
+---
+
+## 🔧 Technologies Used
+
+- **Python 3**  
+- **Flask**  
+- **Flask-Login**  
+- **SQLAlchemy**
+
+---
+
+## 📌 Next Steps
+
+This project helped lay the foundation for working with authentication and session management. Future improvements could include:
+
+- User profile editing  
+- Flash messages and better error handling  
+- Deployment on Heroku or Render  
+- Unit tests for core functionality
+
+---
+
+## 🧠 Credits
+
+Big thanks to the YouTube channel **[Tech With Tim](https://www.youtube.com/@TechWithTim)** for the detailed Flask tutorial that guided this build.
+
+---
+
+## 💬 Contact
+
+If you'd like to connect or view my other projects, feel free to visit my GitHub profile or drop me a message!
+
+---
